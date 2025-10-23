@@ -9,7 +9,8 @@ int main()
     scanf("%d", &key);
     for(i = 0; i < 5; i++) 
     {
-        if(arr[i] == key) {
+        if(arr[i] == key)
+        {
             printf("Element found at position %d\n", i + 1);
             found = 1;
             break;
