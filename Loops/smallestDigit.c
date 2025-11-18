@@ -2,7 +2,7 @@
 int main() 
 {
     int n, min=9;
-    scanf("%d", &n);
+    scanf("%d",&n);
     while(n>0)
     {
         int d = n % 10;
